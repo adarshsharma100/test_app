@@ -38,7 +38,6 @@ class _ArucoDetectorPageState extends State<ArucoDetectorPage> {
   List<dynamic>? _detectedMarkers;
   List<List<dynamic>>? _rows;
   String? _errorMessage;
-
   // API configuration
   final String apiBaseUrl =
       "http://4.240.96.14:8000"; // Update with your API URL
